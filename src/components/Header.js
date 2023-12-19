@@ -14,12 +14,12 @@ function Headerdemo(props) {
   const [open, setOpen] = React.useState(false)
   // const {data}=props
   // console.log(cartItems);
-   const src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5FbYlYOz4oySnqbKEgsDjyMHBcdelGgsmVaCwqYp-G1yAbjdNrhzCK8lsNPRQoHMio7I&usqp=CAU'
-  
+  const src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5FbYlYOz4oySnqbKEgsDjyMHBcdelGgsmVaCwqYp-G1yAbjdNrhzCK8lsNPRQoHMio7I&usqp=CAU'
+
 
 
   return (
-    <>
+        <>
 
       {/* <Segment clearing> */}
        {/* <Segment inverted> */}
