@@ -2,14 +2,11 @@ import GridBody from './components/Grid_main'
 import Headerdemo from './components/Header'
 import data from './components/data';
 import React,{useState} from 'react';
-import Modal1 from './components/Modal';
+// import Start from './components/LoginForm';
+// import Modal1 from './components/Modal';
 // import Basket from './components/Basket';
 // import ExpenseForm from './components/ExpenseForm';
-
-
-
-
-
+import './App.css'
 
 function App() {
   const { products } = data;
@@ -41,26 +38,28 @@ function App() {
     }
   };
   return (
-  
     <>
     <div className="App">
-    <Headerdemo countCartItems={cartItems.length}></Headerdemo>
-     
-      
-     
-  
+    <Headerdemo countCartItems={cartItems.length}
+     cartItems={cartItems}
+     onAdd={onAdd}
+     onRemove={onRemove}>
+
+       {/* <Start/> */}
+   
+    </Headerdemo>
     <GridBody products={products} onAdd={onAdd} />
-    <Modal1
+    {/* <Modal1
      cartItems={cartItems}
      onAdd={onAdd}
      onRemove={onRemove}
-     ></Modal1>
-     {/* <ExpenseForm/> */}
+     ></Modal1> */}
+
       <br/>
     {/* <Modal1/> */}
-  
+     {/* <Login/> */}
     </div>
-  
+     
     </>
     
     

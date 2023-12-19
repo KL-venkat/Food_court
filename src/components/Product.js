@@ -4,12 +4,9 @@ import {Grid,Card,Button } from 'semantic-ui-react'
 export default function Product(props) {
   const { product, onAdd } = props;
   return(
-    <Grid columns='four' divided >
-  
-      <Grid.Row>
-        
-        <Grid.Column width={14}> 
-  
+     
+      <Grid.Row>    
+        <Grid.Column width={15}> 
           <Card
           image={product.image}
           header={product.name}
@@ -18,13 +15,10 @@ export default function Product(props) {
               
           />
           <Button primary  onClick={ ()=>onAdd(product)}>Add Item</Button>
+
          </Grid.Column>
-      </Grid.Row>
-            
-            
-
-
-     </Grid>
+    </Grid.Row>
+    
   );
 }
 

@@ -82,4 +82,139 @@ button.badge {
   color: #ffffff;
   width: 1.5rem;
 } 
+.ui.red.header {
+  color: #db2828!important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid skyblue;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: brown;
+  margin-top: brown;
+  padding-bottom: 5px;
+}
+.ui.card {
+  margin: 0px;
+}
+.fifteen.wide.column {
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+h1.ui.blue.block.inverted.header {
+  border: 1px solid black;
+  padding: 20px 25px 50px;
+  background-color: rgb(99 137 109 / 95%);
+  border-bottom-width: 1px;
+}
+header {
+  font-family: Georgia, serif;
+  font-size: 40px;
+  color: white;
+}
+h1 {
+  margin: 5px;
+  border: 2px solid rgb(10, 119, 162);
+  /* padding-bottom: 0%; */
+  /* scroll-padding-right: 200px; */
+  padding: 10px;
+  padding-block-end: 10px;
+  padding-right: 50px;
+}
+/* .ui.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  scroll-padding-top: 10px;
+  padding: 10px;
+  padding: 2-px;
+} */
+
+
+
+
+
+
+
+/* 
+body {
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(30, 54, 59, 1) 0%,
+    rgba(93, 93, 116, 1) 100%
+  );
+}
+
+.container {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+.container > form {
+  width: 70%;
+  border: 1px solid #dfdfdf;
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+}
+pre {
+  width: 70%;
+  color: #fff;
+  font-size: larger;
+}
+
+button {
+  background: #0563b4 !important;
+}
+p {
+  color: red;
+} */
+
+
+.ui.form .field>label {
+  display: block;
+  margin: 0 0 .28571429rem 0;
+  color: gray;
+  font-size: .92857143em;
+  font-weight: 700;
+  text-transform: initial;
+  /* color: #B4886B; */
+  /* font-weight: bold; */
+  width: 130px;
+  float: left;
+}
+
+
+
+/* * {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#register {
+  width: 400px;
+}*/
+
+input {
+  padding: 3px;
+  box-shadow: 3px 3px 5px grey;
+  font-size: 14px;
+  font-weight: 600;
+  width: 300px;
+} 
 

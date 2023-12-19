@@ -24,4 +24,22 @@
   color: white;
 }
 
+.products {
+  margin-left: 5rem;
+}
+h1.ui.blue.block.inverted.header {
+  text-align: left;
+}
+button.ui.primary.button {
+  margin-top: -100%;
+  margin-bottom: 10%;
+}
+button.ui.green.button.checkout {
+  font-size: x-large;
+  background: seagreen;
+}
+
+
+
+
 
