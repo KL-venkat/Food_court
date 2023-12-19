@@ -103,7 +103,7 @@ button.badge {
 }
 h1.ui.blue.block.inverted.header {
   border: 1px solid black;
-  padding: 20px 25px 50px;
+  /* padding: 20px 25px 50px; */
   background-color: rgb(99 137 109 / 95%);
   border-bottom-width: 1px;
 }

@@ -29,7 +29,7 @@ const ExpenseForm = (props) => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    alert(JSON.stringify(item));
+    alert("Request submitted successfully. will reach out for payment $oon, Thank you! for confirming",JSON.stringify(item));
   };
 
   return (

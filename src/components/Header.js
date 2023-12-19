@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header,Button,  Modal } from 'semantic-ui-react'
+import { Header,Button,  Modal, Image } from 'semantic-ui-react'
 
 import Basket from './Basket'
 import Togglingstate from './Toggle';
@@ -14,7 +14,9 @@ function Headerdemo(props) {
   const [open, setOpen] = React.useState(false)
   // const {data}=props
   // console.log(cartItems);
- 
+   const src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5FbYlYOz4oySnqbKEgsDjyMHBcdelGgsmVaCwqYp-G1yAbjdNrhzCK8lsNPRQoHMio7I&usqp=CAU'
+  
+
 
   return (
     <>
@@ -22,19 +24,8 @@ function Headerdemo(props) {
       {/* <Segment clearing> */}
        {/* <Segment inverted> */}
         <Header as='h1' block inverted color='blue'  >
-       
-          <header>Food Court</header> 
-          {/* <header align='right'  block inverted color='green' >
-            <i className="shopping cart icon">{props.countCartItems}   </i> </header>
-           <Button floated='right'>
-           <Button.Content >
-            <Icon name='shop' >{props.countCartItems}</Icon>
-            </Button.Content>
-            </Button> */}
-
-         
-      
-
+          {/* <header><Image src={src} size='tiny' verticalAlign='top' />Food Court</header>  */}
+          <Image src={src} verticalAlign='center' size='massive' circular /> <span className='header'>Food Court </span>
         <Modal size='medium'
     
         onClose={() => setOpen(false)}
@@ -52,14 +43,8 @@ function Headerdemo(props) {
 
         <Modal.Description>
           {/* <Header> <Basket/></Header> */}
-       
-         
-         
           <Basket cartItems={cartItems} onAdd={onAdd} onRemove={onRemove}
-          ></Basket>
-          
-         
-         
+          ></Basket> 
          <br/>
          <Togglingstate/>
     
@@ -70,8 +55,7 @@ function Headerdemo(props) {
          No
         </Button> */}
         
-        <Button
-          
+        <Button         
           labelPosition='right'
           icon='checkmark'
           onClick={() => setOpen(false)}
@@ -79,8 +63,6 @@ function Headerdemo(props) {
         />
          </Modal.Actions>
        </Modal>
-
-
        {/*adding login form!*/}
 
        <Start/>

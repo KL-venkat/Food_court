@@ -25,7 +25,7 @@
 }
 
 .products {
-  margin-left: 5rem;
+  margin-left: 2rem;
 }
 h1.ui.blue.block.inverted.header {
   text-align: left;
@@ -37,6 +37,11 @@ button.ui.primary.button {
 button.ui.green.button.checkout {
   font-size: x-large;
   background: seagreen;
+}
+span.header {
+  font-family: cursive;
+  color: whitesmoke;
+ 
 }
 
 
