@@ -173,8 +173,6 @@ import ExpenseForm from './ExpenseForm';
 
         {cartItems.length !== 0 && (
           <Grid>
-            
-            
             <Grid.Row >
               {/* <div >Items Price</div> */}
               <Card.Description ></Card.Description>
@@ -232,10 +230,7 @@ import ExpenseForm from './ExpenseForm';
         </Modal.Content>
         </Modal>
              
-
-      
-             
-          </Grid> 
+      </Grid> 
         )}
             </Card.Content>   
         </Card.Content>
