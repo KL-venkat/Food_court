@@ -147,11 +147,6 @@ import ExpenseForm from './ExpenseForm';
                
                {/* <h2>{item.name}</h2> */}
            </div>
-           
-         
-            
-         
-           
             <div>
               <Button inverted color='red' onClick={() => onRemove(item)} >
                 -
@@ -205,24 +200,15 @@ import ExpenseForm from './ExpenseForm';
               <Icon name='rupee'></Icon>{Number(totalPrice).toFixed(2)} </Header></bold>
               </div>
               </Grid.Row>
-            <br/>
-          
-              
-              
+            <br/>  
               <Modal size='medium'
     
              onClose={() => setOpen(false)}
               onOpen={() => setOpen(true)}
             open={open}
              trigger={<Button className='checkout' color='green'> checkout</Button>}>
-        
-      
             <Modal.Content >
-       
-
               <Modal.Description>
-           
-      
             <br/>
             <ExpenseForm myTotalPrice={totalPrice}></ExpenseForm>
             <br/>
@@ -234,10 +220,7 @@ import ExpenseForm from './ExpenseForm';
         )}
             </Card.Content>   
         </Card.Content>
-        </>   
-     
-
-     
+        </>     
   );
 
 
